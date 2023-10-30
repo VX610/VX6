@@ -172,8 +172,8 @@ end)
 
 local Section = Tab:NewSection("قريبا سكربتات اضافة سيتم")
 
-local Tab = Window:NewTab("تخريب")
-local Section = Tab:NewSection("تخريب")
+local Tab = Window:NewTab("🌀تخريب")
+local Section = Tab:NewSection("🌀تخريب")
 local Section = Tab:NewSection("قتل الناس")
 Section:NewButton("تشغيل", "تشغيل", function()
     print("Clicked")loadstring(game:HttpGet("https://pastebin.com/raw/3axt0ia1"))()
@@ -433,16 +433,16 @@ end)
 
 
 local Tab = Window:NewTab("السرعة والنط")
-local Section = Tab:NewSection("تحكم بالشخصية
-Section:NewSlider("السرعة", "? ", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+local Section = Tab:NewSection("تحكم بالشخصية")
+
+Section:NewSlider("السرعة", "سرعة الشخصيه ", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
-Section:NewSlider("النط", "? ", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+Section:NewSlider("النط", "النط", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
 local Tab = Window:NewTab("🔄التحديثات")
 local Section = Tab:NewSection("سيتم اضافة سكربتات زايده")
 local Section = Tab:NewSection("راح اطور السكربت كل اسبوع")
-end)
