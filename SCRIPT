@@ -445,4 +445,4 @@ end)
 
 local Tab = Window:NewTab("🔄التحديثات")
 local Section = Tab:NewSection("سيتم اضافة سكربتات زايده")
-local Section = Tab:NewSection("راح اطور السكربت كل اسبوع")
+local Section = Tab:NewSection("راح اطور السكربت كل اسبوعين")
